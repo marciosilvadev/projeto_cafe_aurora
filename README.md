@@ -1,92 +1,109 @@
 # ☕ Café Aurora
 
-### Meu primeiro projeto para o GitHub | HTML e CSS
+**Meu primeiro projeto publicado no GitHub | HTML5 e CSS3**
 
-O **Café Aurora** é um site fictício de cafeteria que desenvolvi como projeto acadêmico para praticar e aprofundar meus conhecimentos em desenvolvimento web.
+O **Café Aurora** é um site fictício de cafeteria que desenvolvi como projeto acadêmico para colocar em prática meus conhecimentos de HTML e CSS. Ele possui quatro páginas: início, cardápio, nossa história e contato.
 
-Este projeto tem um significado especial para mim: é o **primeiro que decidi organizar e compartilhar no GitHub** como parte da construção do meu portfólio na área de tecnologia.
+Esse projeto marca o começo do meu portfólio em tecnologia. 🚀
 
-## 📖 Como surgiu o projeto
+## 📖 Como surgiu a ideia
 
-Sou estudante de **Engenharia da Computação** e, depois de três semestres de faculdade, decidi começar a transformar o que venho aprendendo em projetos mais completos.
+Sou estudante de **Engenharia da Computação** e estou entrando no **4º semestre**. Durante os três primeiros semestres, já praticava programação e fazia exercícios, mas preferi focar primeiro em entender a lógica e os fundamentos, para ganhar mais segurança antes de compartilhar projetos no GitHub.
 
-Eu já praticava programação e fazia exercícios antes, mas preferi dedicar os primeiros semestres à construção de uma base: entender a lógica, conhecer as tecnologias e ganhar segurança para saber o que estava fazendo, em vez de apenas copiar códigos.
+Agora decidi ir além dos exercícios e colocar o aprendizado em prática de forma mais aprofundada: criar um site com várias páginas, organizar os arquivos, trabalhar com imagens, estilos, tabelas, formulários e navegação.
 
-Agora, entrando no quarto semestre, senti que era o momento de colocar esse aprendizado em prática de forma mais aprofundada, desde a organização dos arquivos até a criação e estilização de páginas que funcionam juntas.
+Escolhi o tema de uma cafeteria porque dava para praticar tudo isso em um projeto simples, dentro do meu nível atual de conhecimento. Ainda tenho bastante coisa para aprender, e a ideia é evoluir aos poucos.
 
-Escolhi começar com uma cafeteria porque a ideia me permitiu trabalhar diferentes elementos de um site, mantendo um projeto simples e adequado ao meu momento de aprendizado.
+## 💻 O que desenvolvi
 
-## 💻 O que o site contém
+- 🏠 **Início:** apresentação da cafeteria, imagem de destaque e acesso ao cardápio.
+- ☕ **Cardápio:** opções de bebidas e acompanhamentos, com lista e tabela de preços.
+- 📖 **Nossa História:** página com uma história fictícia para a cafeteria.
+- 📅 **Contato:** informações do estabelecimento e formulário para simular uma reserva.
 
-- **Início:** apresentação do Café Aurora e destaque dos principais serviços.
-- **Cardápio:** lista de bebidas e acompanhamentos, além de uma tabela de preços.
-- **Nossa História:** página com uma história fictícia da cafeteria.
-- **Contato:** informações do estabelecimento e um formulário para **simular** uma reserva.
+> **Observação:** a cafeteria é fictícia, e o formulário é apenas uma simulação visual em HTML. Ainda não há um sistema de reservas, envio de dados ou banco de dados.
 
-> **Importante:** o formulário é apenas uma simulação em HTML. O site ainda não possui banco de dados nem um sistema que receba e armazene reservas.
+## 📸 Prints do projeto
+
+### 🏠 Página inicial
+
+![Print da página inicial do Café Aurora](imagens/prints/print-inicio.png)
+
+### ☕ Cardápio
+
+![Print da página de cardápio do Café Aurora](imagens/prints/print-cardapio.png)
+
+### 📅 Contato e reserva
+
+![Print da página de contato do Café Aurora](imagens/prints/print-contato.png)
 
 ## 🛠️ Tecnologias utilizadas
 
-- **HTML5:** estrutura e conteúdo das páginas.
-- **CSS3:** cores, espaçamento, estilos, organização visual e ajustes de layout.
+- **HTML5** — estrutura e conteúdo das páginas.
+- **CSS3** — cores, fontes, espaçamentos, imagens e organização visual.
+- **Git e GitHub** — versionamento e publicação do projeto no meu portfólio.
 
-## 📚 O que pratiquei neste projeto
+## 📚 O que pratiquei e aprendi
 
-- Organização de um site com várias páginas HTML.
-- Navegação entre páginas por meio de links.
-- Uso de elementos semânticos, como `header`, `nav`, `main`, `section` e `footer`.
-- Criação de listas, tabelas e formulários.
-- Uso de classes CSS para estilizar diferentes elementos.
-- Aplicação de **Flexbox** em partes do layout.
-- Primeiros ajustes de responsividade com **media queries**.
-- Organização dos arquivos para facilitar futuras alterações.
+- Criar e conectar diferentes páginas HTML.
+- Organizar o projeto em pastas para CSS e imagens.
+- Utilizar tags semânticas, como `header`, `nav`, `main`, `section` e `footer`.
+- Montar listas e tabelas com produtos e preços.
+- Criar formulários com campos de texto, data e seleção.
+- Estilizar componentes utilizando classes CSS.
+- Utilizar **Flexbox** e fazer ajustes para telas menores com **media queries**.
+- Aprender a registrar e compartilhar a evolução do código no GitHub.
 
 ## 📁 Organização do projeto
 
 ```text
-cafe-aurora/
+projeto_cafe_aurora/
+│
 ├── css/
-│   └── estilo.css       # Estilos das páginas
-├── imagens/             # Fotos, banners e imagens do site
-├── cardapio.html        # Cardápio e preços
-├── contato.html         # Contato e simulação de reserva
-├── historia.html        # História fictícia da cafeteria
-├── index.html           # Página inicial
-└── README.md            # Apresentação do projeto no GitHub
+│   └── estilo.css
+│
+├── imagens/
+│   ├── ...                  # Banners, fotos e elementos visuais do site
+│   └── prints/
+│       ├── print-inicio.png
+│       ├── print-cardapio.png
+│       └── print-contato.png
+│
+├── index.html
+├── cardapio.html
+├── historia.html
+├── contato.html
+└── README.md
 ```
 
-A pasta `imagens/` reúne os arquivos visuais usados nas páginas, como as fotos, os banners e os elementos gráficos do Café Aurora. Os nomes dos arquivos que estão dentro dela não aparecem na captura de tela, por isso não os listei individualmente.
+## ▶️ Como executar o projeto
 
-*O `README.md` é o arquivo que estou adicionando ao repositório para documentar o projeto.*
+1. Baixe o repositório ou faça um clone dele.
+2. Mantenha os arquivos e as pastas na estrutura apresentada acima.
+3. Abra `index.html` no navegador.
 
-## ▶️ Como visualizar
-
-1. Baixe os arquivos do projeto ou clone o repositório.
-2. Mantenha os arquivos HTML e o `README.md` na pasta principal, o `estilo.css` dentro de `css/` e as imagens dentro de `imagens/`. Verifique se os caminhos das imagens no HTML correspondem aos nomes reais dos arquivos.
-3. Abra o arquivo `index.html` no navegador.
-
-Também é possível visualizar o site pelo **Live Server**, no Visual Studio Code.
+Se preferir, abra a pasta no **Visual Studio Code** e utilize a extensão **Live Server** para visualizar as páginas.
 
 ## 🚀 Próximos passos
 
-Quero continuar evoluindo o Café Aurora conforme avanço na graduação. Algumas melhorias que pretendo estudar e implementar são:
+Conforme eu avançar nos estudos, quero continuar melhorando este projeto e criar outros para o meu portfólio. Algumas melhorias que pretendo explorar são:
 
-- Revisar e aprimorar a responsividade em diferentes tamanhos de tela.
-- Melhorar a acessibilidade e a organização do HTML e do CSS.
-- Aprender JavaScript para adicionar interações.
-- No futuro, estudar como conectar um formulário a uma aplicação backend e a um banco de dados.
+- Aprimorar a responsividade para diferentes telas.
+- Revisar acessibilidade e organização do código.
+- Aprender **JavaScript** para criar interações.
+- Estudar, futuramente, como integrar formulários a um **backend** e a um **banco de dados**.
 
 ## 🎯 Por que estou compartilhando
 
-Minha intenção não é apresentar um projeto perfeito ou avançado, mas **registrar meu ponto de partida**.
+Não é um projeto avançado, nem quero apresentá-lo como se fosse. É meu **primeiro passo público**, feito com os conhecimentos que tenho hoje e com a intenção de continuar aprendendo.
 
-Estou construindo meu portfólio aos poucos, com projetos que consigo explicar e desenvolver de acordo com os conhecimentos que tenho hoje. Quero acompanhar minha evolução, aprender com os erros e conquistar minha primeira oportunidade profissional em tecnologia.
+Quero usar o GitHub para acompanhar minha evolução, mostrar o que sou capaz de construir e buscar minha primeira oportunidade em tecnologia.
 
-Este é só o começo. 🚀
+**Em breve, novos projetos por aqui! 🚀**
 
 ---
 
 **Desenvolvido por Marcio da Silva**  
-Estudante de Engenharia da Computação | Em transição de carreira para tecnologia
+🎓 Estudante de Engenharia da Computação | Em transição de carreira para tecnologia
 
-[GitHub](https://github.com/marciosilvadev) · [LinkedIn](https://www.linkedin.com/in/marciosilvadev)
+[💻 GitHub](https://github.com/marciosilvadev) · [🔗 LinkedIn](https://www.linkedin.com/in/marciosilvadev)
