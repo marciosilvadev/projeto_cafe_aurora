@@ -70,12 +70,12 @@ h1 {
     background-color: rgba(255, 255, 255, 0.7);
     padding: 15px;
     border-radius: 8px;
-    position: absolute; 
+    position: absolute;
     max-width: 500px; 
     
     top: 50%;
     left: 10px;
-    transform: translateY(-55%)
+    transform: translateY(-55%);
 }
 
 .banner-texto h1 {
