@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Aurora | Contato</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+    <header>
+        <img src="imagens/logo.png" alt="Logo Café Aurora" class="logo">
+
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="cardapio.html">Cardápio</a>
+            <a href="historia.html">Nossa História</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <main class="pagina">
+        <h1> Contato e Reserva</h1>
+        <p class="subtitulo">Preencha o formulário abaixo para simular uma reserva</p>
+
+        <img class="imagem-pagina" src="imagens/contato.png" alt="Café servido em uma mesa">
+
+        <section class="caixa formulario-caixa">
+            <form action="#" method="post">
+                <div class="form-group">
+                    <label for="nome"> Nome:</label>
+                    <input type="text" id="nome"
+                    name="nome" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="data">Data da Reserva</label>
+                    <input type="date" id="data" name="data" required>                    
+                </div>
+                <div class="form-group">
+                    <label for="ambiente">Ambiente:</label>
+                    <select id="ambiente" name="ambiente">
+                        <option value="">Selecione</option>
+                        <option value="salao">Salão interno</option>
+                        <option value="varanda">Varanda</option>
+                        <option value="balcao">Balcão</option>
+                    </select>
+                </div>
+
+                <div class="botoes">
+                    <button type="submit">Enviar</button>
+                    <button type="reset" class="botao-secundario">Limpar</button>
+                </div>
+            </form>
+        </section>
+
+        <section class="caixa">
+            <h2>Informações</h2>
+            <p><strong>Endereço:</strong> Rua das Flores, 123</p>
+            <p><strong>Horário:</strong> Segunda a Sábado, das 08:00h às 20:00h</p>
+            <p><strong>E-mail:</strong> contato@cafeaurora.com.br</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Café Aurora • Projeto acadêmico, 2026</p>
+    </footer>
+    
+</body>
+</html>
